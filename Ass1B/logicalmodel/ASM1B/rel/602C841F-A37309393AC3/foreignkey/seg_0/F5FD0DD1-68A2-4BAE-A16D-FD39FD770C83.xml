@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5FD0DD1-68A2-4BAE-A16D-FD39FD770C83" containerWithKeyObject="4421DC5F-223C-E409-03A7-12B905DF80FF" localFKIndex="6EC40D44-752B-9B75-1BEE-A2965966B76D" name="member_payment">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>8FEE14F5-C385-01F7-D7BD-4C2E44EE31A2</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<referredTableLongName>Member</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEF61F90-A4EF-1F08-AE3F-4B447E8C44A8</referredTableID>
+<keyObject>3FE6C635-DA14-86C1-CDAD-D9CF62C24307</keyObject>
+<referredKeyID>3FE6C635-DA14-86C1-CDAD-D9CF62C24307</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>member_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

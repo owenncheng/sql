@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C8E52E9-8A77-1E9D-B13D-04A1EDDFB148" name="Class_Staff">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>EF578DF5-F97C-8FFA-2AEA-A20C5AD1EB5A</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staff_id" id="FB32A2B1-C59B-C95B-AE4C-9FB0CE9145B1">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id of staff]]></commentInRDBMS>
+<generatorID>6255729A-11AF-79B8-256B-F9FAD570A8B9</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F5E20A0-7D6C-5C39-9A1C-C3D10CC6ECC4" referredColumn="46DDF9D3-13CC-03CC-1B99-AFE03A77972F"/>
+</associations>
+</Column>
+<Column name="class_no" id="942DAB1B-84A6-33EC-8982-8610C42E8852">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique class number to identify class]]></commentInRDBMS>
+<generatorID>63A34629-8ADE-2974-8E9D-05409880D1C3</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2866D1D9-CF86-AB65-A78F-458A40D8B680" referredColumn="9B059048-15A6-6C7E-BC33-4ACBBA1D0167"/>
+</associations>
+</Column>
+<Column name="facility_rm_no" id="E72ABE50-04B5-FCA0-D1B3-C1D66D3BB740">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[the room number of the facility in each centre]]></commentInRDBMS>
+<generatorID>92D8CC85-0498-7156-F17F-8A4240A59A3B</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2866D1D9-CF86-AB65-A78F-458A40D8B680" referredColumn="819BB9F6-0926-7874-87F0-B13048AEE8EA"/>
+</associations>
+</Column>
+<Column name="centre_id" id="C82D1BB5-984B-D37E-6C72-F55DCFF35EC3">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>3BC40D5F-4AE5-B60C-ECFE-765C5D6CE552</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2866D1D9-CF86-AB65-A78F-458A40D8B680" referredColumn="82208579-1192-F499-9DFD-BC432B79B061"/>
+</associations>
+</Column>
+<Column name="centre_id1" id="1B4E83E8-3CF8-6841-D14F-96726DDB9790">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>B7A66ACD-6485-46DB-F3AF-7E6CB0F89639</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_leader" id="574A88DD-C950-7D5E-96F3-99986D9D7674">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[class leader]]></commentInRDBMS>
+<generatorID>613CB80F-6A8E-9253-6169-123C228B327F</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_aid_cert" id="041C339A-78EC-80C3-D594-869B031BC8EE">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[first aid certificate of the staff]]></commentInRDBMS>
+<generatorID>A1CFA789-BFA7-F555-9641-56E9B4B3758B</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99349530-C34B-C786-A646-5F2E19F89CC1" name="Class_Staff_PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>73844CBF-0416-4754-F46D-704571090868</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB32A2B1-C59B-C95B-AE4C-9FB0CE9145B1"/>
+<colUsage columnID="942DAB1B-84A6-33EC-8982-8610C42E8852"/>
+<colUsage columnID="1B4E83E8-3CF8-6841-D14F-96726DDB9790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5BB13C1-AA74-BEB1-AB85-F00C478C8E71" name="class_cs">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>C98C534A-BFAF-55C4-A3B1-BEE30E014296</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="942DAB1B-84A6-33EC-8982-8610C42E8852"/>
+<colUsage columnID="E72ABE50-04B5-FCA0-D1B3-C1D66D3BB740"/>
+<colUsage columnID="C82D1BB5-984B-D37E-6C72-F55DCFF35EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09F4C674-1CF9-90A4-FE7F-06B8594CC889" name="staff_cs">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>BEE2ABB2-EFCD-70FA-F15C-534EBBCE9E67</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB32A2B1-C59B-C95B-AE4C-9FB0CE9145B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

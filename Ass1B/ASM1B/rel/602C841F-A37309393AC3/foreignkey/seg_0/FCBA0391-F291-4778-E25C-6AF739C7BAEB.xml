@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FCBA0391-F291-4778-E25C-6AF739C7BAEB" containerWithKeyObject="4421DC5F-223C-E409-03A7-12B905DF80FF" localFKIndex="86300EA8-E2E9-985A-A9D9-6A4811239418" name="class_payment">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>2A627BBC-1B44-0E93-F10A-CF2470738895</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<referredTableLongName>Class</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28EFE698-3914-0DA8-EB12-9376477B960E</referredTableID>
+<keyObject>A051D8E5-353E-DBE8-9B09-F791BA053040</keyObject>
+<referredKeyID>A051D8E5-353E-DBE8-9B09-F791BA053040</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>class_no,facility_rm_no,centre_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

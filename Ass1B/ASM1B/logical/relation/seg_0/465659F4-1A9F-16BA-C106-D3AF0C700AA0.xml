@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="attend_session" directorySegmentName="seg_0" id="465659F4-1A9F-16BA-C106-D3AF0C700AA0">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:31:27 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<sourcePk>B65B7BD9-73B8-44AC-C2AB-82D5DF72CAAE</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C4E190C-F30E-E386-D064-B863C411B82A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF5CCFDC-2B5E-2521-AA13-A9C3A0615B8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

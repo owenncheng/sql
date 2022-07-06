@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C614416D-409D-BB1B-6EC2-1FA96CD4588F" name="sessionv1">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<generatorID>FF5CCFDC-2B5E-2521-AA13-A9C3A0615B8B</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="session_date" id="FE309B51-4BAE-63D9-90C2-B6DC2AC5C746">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[session date]]></commentInRDBMS>
+<generatorID>C8AA1DCD-922A-0C91-B164-F63FEAB5C4AB</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_attend" id="030DD03F-756F-F861-6FE6-6CBA1631EE29">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[whether the member attend the session]]></commentInRDBMS>
+<generatorID>CDA5CA0F-13E3-4409-81C3-A4C7512F087D</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_no" id="3D219E1F-F785-C114-2DFC-1B24EBE5F63F">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique class number to identify class]]></commentInRDBMS>
+<generatorID>A0672038-91EA-689E-FB76-D72A4F359105</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1130B104-8E88-6A60-3879-2296EEF09466" referredColumn="BA527B79-5F66-D87B-DF64-D9BF519172F8"/>
+</associations>
+</Column>
+<Column name="centre_id" id="8708453C-D4BE-AE81-39D8-2FDCFC6968E0">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>04707C2A-CCF6-2B01-6F08-18B566510C84</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_no" id="5ED489AA-F2CC-1225-83DA-06CB93BBBBB1">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[member number]]></commentInRDBMS>
+<generatorID>8F89706B-3ED1-81B3-F9D1-6C6302EBDA70</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1130B104-8E88-6A60-3879-2296EEF09466" referredColumn="C58C7517-4DDD-051F-1929-932DB74C2F86"/>
+</associations>
+</Column>
+<Column name="session_id" id="59517037-1F57-63DA-2BAD-780C66C6C31F">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[id to identify session (surrogate key)]]></commentInRDBMS>
+<generatorID>703F62A7-9AA0-31F3-2FF1-7F3B0AE814AA</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_no" id="FF9BDA17-58A2-C406-1A68-041A0E3CEE23">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique class number to identify class]]></commentInRDBMS>
+<generatorID>B75F06ED-9740-458F-7F9D-1A20A433BB25</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centre_id" id="0D4CBAB4-7BE9-BF71-54CE-D7E42FDC10D2">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>44205754-5ED6-0AF1-3D2A-C91F5C83AE71</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="F6D0A75E-A3C7-33EC-D09C-C4DD0909F66D">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1130B104-8E88-6A60-3879-2296EEF09466" referredColumn="AB80847B-973C-0C1A-5DC7-6FB17AE95EA8"/>
+</associations>
+</Column>
+<Column name="facility_rm_no" id="7AE35DFD-A5D6-D5DA-37BD-FB3706C5645F">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1130B104-8E88-6A60-3879-2296EEF09466" referredColumn="F587A531-E02E-1E0E-4830-6F5A9E0C19CD"/>
+</associations>
+</Column>
+<Column name="centre_id1" id="4407220A-BE2F-F598-6160-994EC1295958">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1130B104-8E88-6A60-3879-2296EEF09466" referredColumn="63F4D0B5-DF17-88D0-1F0B-8F5C15F13954"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55A05A29-4849-CEE0-2C78-3AD2A9D17579" name="session_PKv1">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<generatorID>4C38237D-96DB-6E32-72FD-8F24B2AE9D02</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59517037-1F57-63DA-2BAD-780C66C6C31F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F4FCC4-33B2-3D23-1FFE-816446D12DFF" name="session_NK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:48:37 UTC</createdTime>
+<generatorID>EC9D7CCA-D7EA-5EFE-9E87-5B1048BB5993</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE309B51-4BAE-63D9-90C2-B6DC2AC5C746"/>
+<colUsage columnID="5ED489AA-F2CC-1225-83DA-06CB93BBBBB1"/>
+<colUsage columnID="FF9BDA17-58A2-C406-1A68-041A0E3CEE23"/>
+<colUsage columnID="0D4CBAB4-7BE9-BF71-54CE-D7E42FDC10D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE75F390-DBB0-F2F5-E70B-108BDC2ED115" name="attend_session">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<generatorID>465659F4-1A9F-16BA-C106-D3AF0C700AA0</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6D0A75E-A3C7-33EC-D09C-C4DD0909F66D"/>
+<colUsage columnID="5ED489AA-F2CC-1225-83DA-06CB93BBBBB1"/>
+<colUsage columnID="3D219E1F-F785-C114-2DFC-1B24EBE5F63F"/>
+<colUsage columnID="7AE35DFD-A5D6-D5DA-37BD-FB3706C5645F"/>
+<colUsage columnID="4407220A-BE2F-F598-6160-994EC1295958"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

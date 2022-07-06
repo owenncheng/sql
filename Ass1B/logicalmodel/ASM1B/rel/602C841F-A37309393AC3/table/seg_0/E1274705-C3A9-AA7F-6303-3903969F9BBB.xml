@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1274705-C3A9-AA7F-6303-3903969F9BBB" name="Assessment">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>0DFD3833-EA3C-120A-28B7-F82218FE6CC4</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date_of_assessment" id="11DA9FB2-A54A-1DB9-DF07-D41358DE13B5">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[date that complete the assessment]]></commentInRDBMS>
+<generatorID>A2E471A9-9C25-D005-0DC1-56119A2819C2</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="0676D8E7-97AF-D5B5-3473-4801FC0FB12C">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[weight of member]]></commentInRDBMS>
+<generatorID>A634C96C-CC66-9184-C398-34801EE23879</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="blood_pressure" id="A67EF5E1-3AE1-3194-57BD-D8BFE3A6F51F">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[blood pressure of member]]></commentInRDBMS>
+<generatorID>FA2B2193-3B39-75CC-AB83-0892F251B379</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VO2Max" id="6F921451-84CC-E721-8E0F-63CDF3091C45">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vo2Max of member]]></commentInRDBMS>
+<generatorID>3BD17665-CDA0-F373-08F4-AC074E0A9E8D</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_no" id="140CBB28-87CE-DC3E-5D4E-A21C8D24FD04">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[member number]]></commentInRDBMS>
+<generatorID>03386945-C7FA-9242-7B04-BCAD88717992</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E495308-933C-0336-2456-8527157404D6" referredColumn="E26343B2-F0A7-0902-0CEF-EF4A92646B29"/>
+</associations>
+</Column>
+<Column name="staff_id" id="169DB176-9937-2C77-67AE-13BDCE768EC2">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id of staff]]></commentInRDBMS>
+<generatorID>6A4E170B-834E-9A90-3E67-97E80F9A1260</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FCCA1AF-5A29-23FE-6402-46CC540B9514" referredColumn="46DDF9D3-13CC-03CC-1B99-AFE03A77972F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75FAC273-1279-D575-1F98-671EB3776551" name="Assessment_PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>65131D86-B079-9BF4-D8F8-8CFBEB4A064D</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="140CBB28-87CE-DC3E-5D4E-A21C8D24FD04"/>
+<colUsage columnID="169DB176-9937-2C77-67AE-13BDCE768EC2"/>
+<colUsage columnID="11DA9FB2-A54A-1DB9-DF07-D41358DE13B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8D14315-7069-8284-CC57-129CE811F3FE" name="member_assessment">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>3687EAD3-2FE2-9592-202F-FC8A6DAAEF70</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="140CBB28-87CE-DC3E-5D4E-A21C8D24FD04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADEAE303-34E1-82B5-330C-F6B2FA82DF01" name="staff_assessment">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>BA141ED4-2337-C515-6EF4-C197C9CF5C03</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="169DB176-9937-2C77-67AE-13BDCE768EC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

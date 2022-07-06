@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A788356B-5633-A19D-6155-E0B167DF0892" name="Class_type">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<generatorID>4EC1D019-468C-89B2-70DF-DB7FCBAA9D96</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="class_type_id" id="C1DA6AEA-CF16-9864-FA2A-E0D0F502BB8C">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[class type id]]></commentInRDBMS>
+<generatorID>335AEF04-E274-1B98-D4A1-70BB51E2C311</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_type_name" id="091B7B63-F7A0-B7DC-3D4F-CB5BAF4A2C10">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[class type name]]></commentInRDBMS>
+<generatorID>13ACC319-61FB-9E93-A1A9-2FD511B4A901</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E02F796-13FB-9616-B616-4907FF69EA26" name="Class_type_PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<generatorID>166A2824-8E3B-C96C-1141-BB77EEC257E3</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1DA6AEA-CF16-9864-FA2A-E0D0F502BB8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

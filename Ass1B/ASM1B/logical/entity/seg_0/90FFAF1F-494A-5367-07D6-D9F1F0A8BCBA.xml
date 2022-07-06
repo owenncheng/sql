@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90FFAF1F-494A-5367-07D6-D9F1F0A8BCBA" name="Session">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-13 13:08:01 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="session_date" id="CD9FD686-D9DB-E430-14B5-F2BFA1FD78B7">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-13 13:10:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of each session of class]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="member_no" id="F2DDCA9A-1983-AEF1-CEEF-D207D492D1B3">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-13 13:11:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[member number]]></commentInRDBMS>
+<generatorID>AF33D4A4-9565-4650-CA43-D087C40450F2</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<referedAttribute>A968FE4C-128A-451A-B940-2463AD77AFE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57B36F28-DCF3-3405-0E05-34C61E807E3D" name="Session_PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-13 13:10:33 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD9FD686-D9DB-E430-14B5-F2BFA1FD78B7</attributeRef>
+<attributeRef>F2DDCA9A-1983-AEF1-CEEF-D207D492D1B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

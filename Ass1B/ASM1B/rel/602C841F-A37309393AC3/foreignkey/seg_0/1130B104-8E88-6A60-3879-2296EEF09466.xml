@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1130B104-8E88-6A60-3879-2296EEF09466" containerWithKeyObject="C614416D-409D-BB1B-6EC2-1FA96CD4588F" localFKIndex="CE75F390-DBB0-F2F5-E70B-108BDC2ED115" name="attend_session">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:37:15 UTC</createdTime>
+<generatorID>465659F4-1A9F-16BA-C106-D3AF0C700AA0</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<referredTableLongName>Attendance</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4421DC5F-223C-E409-03A7-12B905DF80FF</referredTableID>
+<keyObject>313E3B6F-E82A-1A01-C3B0-5601F68CF9E2</keyObject>
+<referredKeyID>313E3B6F-E82A-1A01-C3B0-5601F68CF9E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>payment_date,member_no,class_no,facility_rm_no,centre_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

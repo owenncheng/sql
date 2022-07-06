@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF5CCFDC-2B5E-2521-AA13-A9C3A0615B8B" name="session">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 03:00:18 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="session_id" id="703F62A7-9AA0-31F3-2FF1-7F3B0AE814AA">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:34:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[id to identify session (surrogate key)]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="session_date" id="C8AA1DCD-922A-0C91-B164-F63FEAB5C4AB">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 03:00:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[session date]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="session_attend" id="CDA5CA0F-13E3-4409-81C3-A4C7512F087D">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 03:00:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[whether the member attend the session]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="member_no" id="8F89706B-3ED1-81B3-F9D1-6C6302EBDA70">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 09:31:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[member number]]></commentInRDBMS>
+<generatorID>465659F4-1A9F-16BA-C106-D3AF0C700AA0</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<referedAttribute>EEDF7572-2AC9-8E2C-D13E-F19AB299EB69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_no" id="B75F06ED-9740-458F-7F9D-1A20A433BB25">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:28:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique class number to identify class]]></commentInRDBMS>
+<generatorID>465659F4-1A9F-16BA-C106-D3AF0C700AA0</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<referedAttribute>66FA87D8-092B-9C04-2191-139A1CF0926D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centre_id" id="44205754-5ED6-0AF1-3D2A-C91F5C83AE71">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:28:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>465659F4-1A9F-16BA-C106-D3AF0C700AA0</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<referedAttribute>E7735E53-E422-72B7-7DCF-B9BDD9EAF19F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C38237D-96DB-6E32-72FD-8F24B2AE9D02" name="session PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-15 03:00:31 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>703F62A7-9AA0-31F3-2FF1-7F3B0AE814AA</newElementsIDs>
+<usedAttributes>
+<attributeRef>703F62A7-9AA0-31F3-2FF1-7F3B0AE814AA</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EC9D7CCA-D7EA-5EFE-9E87-5B1048BB5993" name="session_NK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-16 13:45:17 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="false"/>
+</engineerTo>
+<newElementsIDs>C8AA1DCD-922A-0C91-B164-F63FEAB5C4AB,8F89706B-3ED1-81B3-F9D1-6C6302EBDA70,B75F06ED-9740-458F-7F9D-1A20A433BB25,44205754-5ED6-0AF1-3D2A-C91F5C83AE71</newElementsIDs>
+<usedAttributes>
+<attributeRef>C8AA1DCD-922A-0C91-B164-F63FEAB5C4AB</attributeRef>
+<attributeRef>8F89706B-3ED1-81B3-F9D1-6C6302EBDA70</attributeRef>
+<attributeRef>B75F06ED-9740-458F-7F9D-1A20A433BB25</attributeRef>
+<attributeRef>44205754-5ED6-0AF1-3D2A-C91F5C83AE71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

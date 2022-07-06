@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CBF779B-CA80-DF5B-B841-B85C1A607CE6" name="Staff">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:45:15 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staff_id" id="B8FCF926-93A9-9AA0-6E06-D62FADE91894">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:45:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id of staff]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_first_name" id="D4BEF93B-1B38-D67F-58CA-81FA17570231">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:45:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[staff first name]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_last_name" id="CF7B8C25-9105-898B-63A7-CCE4F4F11748">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:46:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[staff last name]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_phone_no" id="C3CCA4C9-5CF8-9BC5-12E6-98274DC93998">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:46:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[staff phone number]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_date_joined" id="23832FCE-10CD-8310-5C8B-5167642BADF2">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:47:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[date that the staff join]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_role" id="09F983A4-741B-E98B-7ADA-A6074672BDFD">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:47:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[staff role]]></commentInRDBMS>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centre_id" id="9D3445F0-5C8E-6B88-398E-6E1B6B731492">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:54:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>229AB942-DE26-D184-7A4A-B98499109479</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<referedAttribute>AF29B251-C1DD-8A40-5344-8FB1A99F8ED4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="463B4BDD-4513-C344-9A97-38A8D31985AD" name="Staff_PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:45:41 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8FCF926-93A9-9AA0-6E06-D62FADE91894</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

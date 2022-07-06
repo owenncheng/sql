@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0772CA63-DD95-868C-A793-FA0F64D001A5" name="Centre">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>8A14B097-C21D-828E-8913-FD131954976E</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="centre_id" id="BA2002F4-D17E-A653-3D42-1453EEE58F0A">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id to identify centre]]></commentInRDBMS>
+<generatorID>AF29B251-C1DD-8A40-5344-8FB1A99F8ED4</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centre_name" id="3A575073-6C66-CD06-2E84-B0B5DEEC5707">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[name of the creter]]></commentInRDBMS>
+<generatorID>B5664108-7A15-6510-4217-80DCF95BD9D4</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centre_street" id="528E67EB-3048-22D8-EE9E-78E43CAA0424">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[address of the centre - street]]></commentInRDBMS>
+<generatorID>F096C230-D9E3-2DBC-96BB-A1C256DC8DE2</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centre_town" id="E97A59E8-FB7A-AC05-53EC-5B9D2DAC8688">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[address of the centre - town]]></commentInRDBMS>
+<generatorID>E6325D3B-04C7-15C5-0A92-E523B662DE03</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenntre_pc" id="337E65AD-E974-435B-F73E-B378DDF1F759">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[address of the centre - postcode]]></commentInRDBMS>
+<generatorID>B40B2F9B-B737-DB35-46AE-47D78B2DEAC5</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="centre_phone_no" id="08AAC236-15E6-3289-F7D0-BF03A7685D43">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[phone number of the centre]]></commentInRDBMS>
+<generatorID>AA06B80D-BCF1-70F6-CEBC-BC58469567AF</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_id" id="3F5F2101-A562-1761-B757-3509FF79333A">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[unique id of staff]]></commentInRDBMS>
+<generatorID>04396FCC-9040-2381-E67C-DEB574898C31</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56C036D2-75A5-CEF1-33F0-17D178C53048" referredColumn="46DDF9D3-13CC-03CC-1B99-AFE03A77972F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AFAA182-F004-4610-94ED-1733710303E3" name="Centre_PK">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>F1388659-D8DD-B073-C724-18AA20DA1B55</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA2002F4-D17E-A653-3D42-1453EEE58F0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B80E6B0-E1A3-EA03-22F4-400152D5A5A8" name="Centre__IDX">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>985AB75D-26E9-BC42-8957-1A93417BC723</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3F5F2101-A562-1761-B757-3509FF79333A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C432CB5-F354-2492-7080-95911665B15B" name="staff_centre">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 08:48:47 UTC</createdTime>
+<generatorID>985AB75D-26E9-BC42-8957-1A93417BC723</generatorID>
+<ownerDesignName>ASM1B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F5F2101-A562-1761-B757-3509FF79333A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

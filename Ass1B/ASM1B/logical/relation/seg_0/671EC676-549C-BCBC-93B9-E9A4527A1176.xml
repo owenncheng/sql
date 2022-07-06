@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="crentre_facility" directorySegmentName="seg_0" id="671EC676-549C-BCBC-93B9-E9A4527A1176">
+<createdBy>OwenCheng</createdBy>
+<createdTime>2021-09-12 06:38:41 UTC</createdTime>
+<ownerDesignName>ASM1B</ownerDesignName>
+<engineerTo>
+<item key="602C841F-274D-5D2D-4880-A37309393AC3" value="true"/>
+</engineerTo>
+<sourcePk>F1388659-D8DD-B073-C724-18AA20DA1B55</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A14B097-C21D-828E-8913-FD131954976E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>40BB0707-1AD5-86CE-F1DF-540120380609</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
